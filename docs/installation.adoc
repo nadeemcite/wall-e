@@ -45,9 +45,9 @@ add this code
 .Optional Title
 [source,python]
 ----
-DATABASES = { {nbsp} +
-    'default': { {nbsp} +
-        'ENGINE': 'django.db.backends.postgresql_psycopg2', {nbsp} +
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'wall_e',
         'USER': 'root',
         'PASSWORD': 'root',
