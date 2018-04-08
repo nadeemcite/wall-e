@@ -41,8 +41,7 @@ Install Postgresql
 
 add this code
 
-`
-DATABASES = {
+`DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'wall_e',
@@ -51,6 +50,5 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432'
     }
-}
-`
+}`
 
