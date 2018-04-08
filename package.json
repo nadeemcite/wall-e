@@ -1,0 +1,15 @@
+{
+  "name": "wall-e",
+  "version": "1.0.0",
+  "description": "wall e the famous leftout robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadeemcite/wall-e.git"
+  },
+  "author": "nadeemcite",
+  "license": "ISC"
+}
