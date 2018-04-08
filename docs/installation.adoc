@@ -31,24 +31,28 @@ to install libs git, zsh, ohmyzsh, autoenv and pyenv
 -- Node Installation
 
 
-Install Postgresql
+.Install Postgresql
 
-1. Create database wall_e
+. Create database wall_e
 
-2. Create user root with password root
+. Create user root with password root
 
-3. Create a local_settings.py file in directory src/proj/proj/
+. Create a local_settings.py file in directory src/proj/proj/
 
 add this code
 
-`DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+.Optional Title
+[source,python]
+----
+DATABASES = { {nbsp} +
+    'default': { {nbsp} +
+        'ENGINE': 'django.db.backends.postgresql_psycopg2', {nbsp} +
         'NAME': 'wall_e',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '5432'
     }
-}`
-
+}
+----
