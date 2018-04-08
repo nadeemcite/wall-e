@@ -1,10 +1,7 @@
 Installation steps
 -- OS Installations
 
-Install python 3
-
-
-to install zsh, ohmyzsh, autoenv and pyenv
+to install libs git, zsh, ohmyzsh, autoenv and pyenv
 
 `sudo apt-get install build-essential curl gdal-bin git libbz2-dev libgdbm-dev liblzma-dev libmagic1 libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libssl-dev libssl-dev llvm make python-dev python3-dev python-gdal python3-gdal supervisor tk-dev wget xz-utils zlib1g-dev zsh`
 
@@ -33,4 +30,27 @@ to install zsh, ohmyzsh, autoenv and pyenv
 
 -- Node Installation
 
+
+Install Postgresql
+
+1. Create database wall_e
+
+2. Create user root with password root
+
+3. Create a local_settings.py file in directory src/proj/proj/
+
+add this code
+
+`
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wall_e',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432'
+    }
+}
+`
 
