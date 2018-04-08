@@ -118,3 +118,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# DO NOT WRITE ANY THING BELOW THIS
+
+try:
+    from proj.local_settings import *
+except ImportError:
+    password
