@@ -39,10 +39,9 @@ to install libs git, zsh, ohmyzsh, autoenv and pyenv
 
 . Create a local_settings.py file in directory src/proj/proj/
 
-add this code
 
 
-.Optional Title
+.Add this code
 [source,python]
 ----
 DATABASES = {
