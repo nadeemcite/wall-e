@@ -130,4 +130,4 @@ STATIC_URL = '/static/'
 try:
     from proj.local_settings import *
 except ImportError:
-    password
+    pass
