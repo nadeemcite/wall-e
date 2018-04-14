@@ -5,11 +5,9 @@ to install libs git, zsh, ohmyzsh, autoenv and pyenv
 
 `sudo apt-get install build-essential curl gdal-bin git libbz2-dev libgdbm-dev liblzma-dev libmagic1 libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libssl-dev libssl-dev llvm make python-dev python3-dev python-gdal python3-gdal supervisor tk-dev wget xz-utils zlib1g-dev zsh`
 
-`sudo su`
-
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
-`exit`
+`chsh -s $(which zsh)`
 
 `git clone https://github.com/Tarrasch/zsh-autoenv ~/.dotfiles/lib/zsh-autoenv`
 
