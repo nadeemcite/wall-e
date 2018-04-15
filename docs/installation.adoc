@@ -31,6 +31,7 @@ to install libs git, zsh, ohmyzsh, autoenv and pyenv
 
 `echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc`
 
+`pyenv virtualenv 3.6.4 walle`
 
 -- Node Installation
 
