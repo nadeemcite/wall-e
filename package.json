@@ -7,7 +7,7 @@
     "start": "nodemon src/server.js",
     "django_start": "python src/proj/manage.py runserver 0.0.0.0:8001",
     "migrate": "python src/proj/manage.py migrate",
-    "dev": "concurrently --kill-others \"npm start\" \"npm run django_start\"",
+    "dev": "concurrently --kill-others \"npm start\" \"npm run django_start\" \"php -S localhost:8002 -t src/pserve/\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
