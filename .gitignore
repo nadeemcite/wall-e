@@ -49,3 +49,4 @@ package-lock.json
 *.pyc
 *.sqlite3
 local_settings.py
+*.py.swp
