@@ -44,13 +44,9 @@ class GoogleMapPlaces:
         querystring = {"location":loc,"radius":self.radius,"type":self.type,"keyword":self.keyword,"key":self.API_KEY}
 
         response = requests.request("GET", url, params=querystring)
-        print(response.text)
         return response.json()
 
     def getNearByAddress(self):
         r = self.getNearBy()
         for x in r["results"]:
             print(x["name"]+" "+x.get("vicinity", ""))
-
-a = GoogleMapPlaces("Chittorgarh", "1500", "restaurant", "pizza")
-a.getNearByAddress()
