@@ -28,7 +28,7 @@ to install libs git, zsh, ohmyzsh, autoenv and pyenv
 
 `pyenv install 3.6.4`
 
-`echo "eval \"$(pyenv init -)\"" >> ~/.zshrc`
+`echo 'eval "$(pyenv init -)"' >> ~/.zshrc`
 
 `git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv`
 
